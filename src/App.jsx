@@ -7,7 +7,7 @@ import './App.css' // Importa o arquivo de estilos CSS para a aplicação (aplic
 function App() { // Componente principal da aplicação
   return (
     <div className="content">
-      <h1 style={{color: 'black'}}>SynHealth</h1> {/* Título da página */}
+      <h1 style={{color: 'black'}}>SynSaude</h1> {/* Título da página */}
       <div className='main'>
       <BrowserRouter> {/* Envolve a aplicação para que a navegação entre páginas funcione sem recarregar */}
         <Routes> {/* Define as rotas da aplicação */}
